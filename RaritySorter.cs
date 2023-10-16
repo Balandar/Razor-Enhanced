@@ -20,15 +20,15 @@ namespace RazorScripts
             // Set value of bag serials here if you always use the same ones. Otherwise set to -1
             Dictionary<string, int> bags =
                     new Dictionary<string, int>(){
-                                        {"MinorMagicItem", 1078012838},
-                                        {"LesserMagicItem", 1079219173},
-                                        {"GreaterMagicItem", 1079219175},
-                                        {"MajorMagicItem", 1078012843},
-                                        {"MinorArtifact", 1075845263},
-                                        {"LesserArtifact", 1075845263},
-                                        {"GreaterArtifact", 1078012840},
-                                        {"MajorArtifact", 1078012844},
-                                        {"LegendaryArtifact", 1078012837}
+                                        {"MinorMagicItem", -1},
+                                        {"LesserMagicItem", -1},
+                                        {"GreaterMagicItem", -1},
+                                        {"MajorMagicItem", -1},
+                                        {"MinorArtifact", -1},
+                                        {"LesserArtifact", -1},
+                                        {"GreaterArtifact", -1},
+                                        {"MajorArtifact", -1},
+                                        {"LegendaryArtifact", -1}
                                         };
             var sourceBag = tar.PromptTarget("Pick bag you wish to sort");
 
